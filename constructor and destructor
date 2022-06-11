@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+class complex
+{
+     
+     public:float real;
+            float img;
+            complex()
+             {
+                cout<<"enter the real and imaginary part of the complex number";
+                cin>>real>>img;
+         
+             }
+            ~complex()
+             {
+         
+             }
+     
+};
+int main()
+{
+    complex c;
+    cout<<"the imaginary number is \n"<<c.real<<"+j"<<c.img<<"\n";
+    return 0;
+}
